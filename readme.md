@@ -1,0 +1,1 @@
+Samples script used for educational purpose only.
