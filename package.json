@@ -1,0 +1,16 @@
+{
+  "name": "HTMLJSBasics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "callback.js",
+  "scripts": {
+    "test": "npx mocha mochatest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^9.0.1",
+    "selenium-webdriver": "^4.0.0-beta.4"
+  }
+}
