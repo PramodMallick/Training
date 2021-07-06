@@ -1,0 +1,212 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-07-06T21:39:07.780Z",
+    "end": "2021-07-06T21:39:09.814Z",
+    "duration": 2034,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "bf147ad4-2d7f-40fb-8b4e-02d14370b101",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "90e99f12-8ba3-420b-8503-916612e9a31e",
+          "title": "Verify login page functionality",
+          "fullFile": "/Users/pramodmallick/Training/Training/test/mocha1.js",
+          "file": "/test/mocha1.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook in \"Verify login page functionality\"",
+              "fullTitle": "Verify login page functionality \"before all\" hook in \"Verify login page functionality\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('before')",
+              "err": {},
+              "uuid": "ac95acb5-50a0-437f-85c9-da3467ec46c9",
+              "parentUUID": "90e99f12-8ba3-420b-8503-916612e9a31e",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook in \"Verify login page functionality\"",
+              "fullTitle": "Verify login page functionality \"before each\" hook in \"Verify login page functionality\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('before each')",
+              "err": {},
+              "uuid": "18652a13-3f6a-44ee-b013-7b24664de550",
+              "parentUUID": "90e99f12-8ba3-420b-8503-916612e9a31e",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook in \"Verify login page functionality\"",
+              "fullTitle": "Verify login page functionality \"after all\" hook in \"Verify login page functionality\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('after executed')\ndriver.quit();",
+              "err": {},
+              "uuid": "e2d03df1-049c-41af-92a5-aac532d66824",
+              "parentUUID": "90e99f12-8ba3-420b-8503-916612e9a31e",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook in \"Verify login page functionality\"",
+              "fullTitle": "Verify login page functionality \"after each\" hook in \"Verify login page functionality\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('after each function executed')",
+              "err": {},
+              "uuid": "a3691b54-56b6-468f-b120-e3aa7c92fd94",
+              "parentUUID": "90e99f12-8ba3-420b-8503-916612e9a31e",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Verify valid login id and valid password",
+              "fullTitle": "Verify login page functionality Verify valid login id and valid password",
+              "timedOut": false,
+              "duration": 1851,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await driver.get('http://www.google.com');\n        console.log('Executing   ----> ', 'Verify valid login id and valid password')",
+              "err": {},
+              "uuid": "ad492529-fdb3-41a8-a8f8-8be609a3d16f",
+              "parentUUID": "90e99f12-8ba3-420b-8503-916612e9a31e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify valid login id and invalid password",
+              "fullTitle": "Verify login page functionality Verify valid login id and invalid password",
+              "timedOut": false,
+              "duration": 168,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await driver.get('http://www.google.com');\n        console.log('Executing   ----> ', 'Verify valid login id and invalid password')",
+              "err": {},
+              "uuid": "adcd2cf7-51e8-4544-bc5a-5c60ddde5185",
+              "parentUUID": "90e99f12-8ba3-420b-8503-916612e9a31e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify Invalid login id and valid password",
+              "fullTitle": "Verify login page functionality Verify Invalid login id and valid password",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('Executing   ----> ', 'Verify Invalid login id and valid password')",
+              "err": {},
+              "uuid": "5add7f7e-8423-4007-a2c6-90f1ffc6d329",
+              "parentUUID": "90e99f12-8ba3-420b-8503-916612e9a31e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ad492529-fdb3-41a8-a8f8-8be609a3d16f",
+            "adcd2cf7-51e8-4544-bc5a-5c60ddde5185",
+            "5add7f7e-8423-4007-a2c6-90f1ffc6d329"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2019,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 5000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 5000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "9.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}
